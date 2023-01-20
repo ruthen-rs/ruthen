@@ -1,0 +1,13 @@
+[package]
+name = "ruthen"
+version = "0.0.0-alpha"
+edition = "2021"
+
+description = "Empowering everyone to take control over Discord servers."
+repository = "https://github.com/ruthen-rs/ruthen"
+authors = ["finnmonstar <finnmonstar@pm.me>"]
+license = "AGPL-3.0"
+readme = "README.md"
+
+[profile.release]
+strip = true
